@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/mountain" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:text="TRAVEL WORLD"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        />
+
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="Travel World is the agency through which you can make your wildest dreams of exploring different parts of world come true in form of attractive packages. "
+        android:textColor="#234654"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/service"
+        android:padding="15dp"
+        android:text="Contacts : "
+        android:textColor="#ff8100"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/contact"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:padding="5dp"
+        android:src="@mipmap/call" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_toRightOf="@id/phone"
+        android:padding="5dp"
+        android:text="650-555-5555"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:padding="5dp"
+        android:src="@mipmap/location" />
+
+    <TextView
+        android:id="@+id/addressr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_toEndOf="@+id/location"
+        android:layout_toRightOf="@+id/location"
+        android:padding="5dp"
+        android:text="2465 Silver Gardens
+Mountain View , CA 94043"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addressr"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:padding="5dp"
+        android:src="@mipmap/email" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addressr"
+        android:layout_toRightOf="@+id/location"
+        android:padding="5dp"
+        android:text="www.travelworld.com"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
